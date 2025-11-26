@@ -97,7 +97,7 @@ export const Hero = ({ onShopNow }) => {
                     <button 
                     onClick={onShopNow}
                     className="flex items-center justify-center px-8 my-4 py-3 border border-accent text-white bg-white bg-opacity-20 backdrop-blur-sm hover:bg-opacity-30 rounded-md transition-all">
-                      nnakssolutions@gmail.com <ArrowRight className="ml-2 h-5 w-5" />
+                      Products in stock <ArrowRight className="ml-2 h-5 w-5" />
                     </button>
                   </div>
                 </div>
