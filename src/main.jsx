@@ -4,7 +4,7 @@ import App from './App.jsx';
 import './index.css';
 import { AuthProvider } from './providers/AuthContext.jsx';
 import { Provider as ReduxProvider } from "react-redux";
-import { store } from "./backend/store"
+import { store } from "./backend/store.js"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
