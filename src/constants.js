@@ -1,13 +1,13 @@
 export const SHOP_NAME = "NNAKS SOLUTION ENGINEERING CO LTD";
 export const LOCATION = "High Street, Mbarara City, Uganda";
-import categoriesImage1 from "./images/categoriesImage1.png";
-import categoriesImage2 from "./images/categoriesImage2.png";
-import categoriesImage3 from "./images/categoriesImage3.png";
-import categoriesImage4 from "./images/categoriesImage4.png";
-import categoriesImage5 from "./images/categoriesImage5.png";
-import categoriesImage6 from "./images/categoriesImage6.png";
-import categoriesImage7 from "./images/categoriesImage7.png";
-import categoriesImage8 from "./images/categoriesImage8.png";
+import categoriesImage1 from "./images/categoriesImage1.webp";
+import categoriesImage2 from "./images/categoriesImage2.webp";
+import categoriesImage3 from "./images/categoriesImage3.webp";
+import categoriesImage4 from "./images/categoriesImage4.webp";
+import categoriesImage5 from "./images/categoriesImage5.webp";
+import categoriesImage6 from "./images/categoriesImage6.webp";
+import categoriesImage7 from "./images/categoriesImage7.webp";
+import categoriesImage8 from "./images/categoriesImage8.webp";
 
 export const Category = {
   SEUSLIGHTS: 'Seus Lights',

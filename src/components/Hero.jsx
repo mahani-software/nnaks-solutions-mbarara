@@ -1,24 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
-import homeBannerImage0 from "../images/homeBanner0.png";
-import homeBannerImage2 from "../images/homeBanner2.png";
-import homeBannerImage3 from "../images/homeBanner3.png";
-import homeBannerImage4 from "../images/homeBanner4.png";
-import homeBannerImage5 from "../images/homeBanner5.png";
-import homeBannerImage6 from "../images/homeBanner6.png";
-import homeBannerImage8 from "../images/homeBanner8.png";
-import homeBannerImage9 from "../images/homeBanner9.png";
-import homeBannerImage10 from "../images/homeBanner10.png";
-import homeBannerImage11 from "../images/homeBanner11.png";
-import homeBannerImage12 from "../images/homeBanner12.png";
-import homeBannerImage13 from "../images/homeBanner13.png";
-import homeBannerImage14 from "../images/homeBanner14.png";
-import homeBannerImage15 from "../images/homeBanner15.png";
-import homeBannerImage16 from "../images/homeBanner16.png";
-import homeBannerImage17 from "../images/homeBanner17.png";
-import homeBannerImage18 from "../images/homeBanner18.png";
-import homeBannerImage19 from "../images/homeBanner19.png";
-import homeBannerImage20 from "../images/homeBanner20.png";
+import homeBannerImage0 from "../images/homeBanner0.webp";
+import homeBannerImage2 from "../images/homeBanner2.webp";
+import homeBannerImage3 from "../images/homeBanner3.webp";
+import homeBannerImage4 from "../images/homeBanner4.webp";
+import homeBannerImage5 from "../images/homeBanner5.webp";
+import homeBannerImage6 from "../images/homeBanner6.webp";
+import homeBannerImage8 from "../images/homeBanner8.webp";
+import homeBannerImage9 from "../images/homeBanner9.webp";
+import homeBannerImage10 from "../images/homeBanner10.webp";
+import homeBannerImage11 from "../images/homeBanner11.webp";
+import homeBannerImage12 from "../images/homeBanner12.webp";
+import homeBannerImage13 from "../images/homeBanner13.webp";
+import homeBannerImage14 from "../images/homeBanner14.webp";
+import homeBannerImage15 from "../images/homeBanner15.webp";
+import homeBannerImage16 from "../images/homeBanner16.webp";
+import homeBannerImage17 from "../images/homeBanner17.webp";
+import homeBannerImage18 from "../images/homeBanner18.webp";
+import homeBannerImage19 from "../images/homeBanner19.webp";
+import homeBannerImage20 from "../images/homeBanner20.webp";
 
 const bannerPictures = [
   homeBannerImage0, homeBannerImage2, homeBannerImage3, homeBannerImage4, homeBannerImage5, 
