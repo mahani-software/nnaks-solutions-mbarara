@@ -1,5 +1,6 @@
 export const SHOP_NAME = "NNAKS SOLUTION ENGINEERING CO LTD";
 export const LOCATION = "High Street, Mbarara City, Uganda";
+/*
 import categoriesImage1 from "./images/categoriesImage1.webp";
 import categoriesImage2 from "./images/categoriesImage2.webp";
 import categoriesImage3 from "./images/categoriesImage3.webp";
@@ -8,6 +9,20 @@ import categoriesImage5 from "./images/categoriesImage5.webp";
 import categoriesImage6 from "./images/categoriesImage6.webp";
 import categoriesImage7 from "./images/categoriesImage7.webp";
 import categoriesImage8 from "./images/categoriesImage8.webp";
+//
+categoriesImage1  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage1.webp
+categoriesImage2  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage2.webp
+categoriesImage3  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage3.webp
+categoriesImage4  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage4.webp
+categoriesImage5  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage5.webp
+categoriesImage6  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage6.webp
+categoriesImage7  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage7.webp
+categoriesImage8  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage8.webp
+categoriesImage9  ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage9.webp
+categoriesImage10 ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage10.webp
+categoriesImage11 ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage11.webp
+categoriesImage12 ---> https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage12.webp
+*/
 
 export const Category = {
   SEUSLIGHTS: 'Seus Lights',
@@ -22,7 +37,7 @@ export const PRODUCTS = [
     category: Category.SEUSLIGHTS,
     price: 850000,
     description: 'Beautiful design for sitting executive rooms',
-    image: categoriesImage1,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage1.webp",
     specs: ['Unique', "seus"],
     featured: true
   },
@@ -32,7 +47,7 @@ export const PRODUCTS = [
     category: Category.SEUSLIGHTS,
     price: 480000,
     description: 'The ultimate decoration in 2025',
-    image: categoriesImage2,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage2.webp",
     specs: ['Full set', 'Excellent'],
     featured: true
   },
@@ -42,7 +57,7 @@ export const PRODUCTS = [
     category: Category.ACCENTLIGHTS,
     price: 240000,
     description: 'New 2025 version of accent lights.',
-    image: categoriesImage3,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage3.webp",
     specs: ['Accent modern'],
     featured: true
   },
@@ -52,7 +67,7 @@ export const PRODUCTS = [
     category: Category.ACCENTLIGHTS,
     price: 4200000,
     description: 'Strikingly bright and beautiful.',
-    image: categoriesImage4,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage4.webp",
     specs: ['Ring'],
     featured: true
   },
@@ -62,7 +77,7 @@ export const PRODUCTS = [
     category: Category.AMBIENTLIGHTS,
     price: 650000,
     description: 'Original ambient executive new model',
-    image: categoriesImage5,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage5.webp",
     specs: ['LED lights']
   },
   {
@@ -71,7 +86,7 @@ export const PRODUCTS = [
     category: Category.AMBIENTLIGHTS,
     price: 1200000,
     description: 'Industry leading and modern.',
-    image: categoriesImage6,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage6.webp",
     specs: ['Glorious']
   },
   {
@@ -80,7 +95,7 @@ export const PRODUCTS = [
     category: Category.AMBIENTLIGHTS,
     price: 150000,
     description: 'Ultra-high capacity.',
-    image: categoriesImage7,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage7.webp",
     specs: ['Made in US']
   },
   {
@@ -89,7 +104,7 @@ export const PRODUCTS = [
     category: Category.AMBIENTLIGHTS,
     price: 350000,
     description: 'Beautiful',
-    image: categoriesImage8,
+    image: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage8.webp",
     specs: ['modern']
   }
 ];

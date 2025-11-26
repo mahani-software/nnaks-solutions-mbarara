@@ -20,15 +20,30 @@ import homeBannerImage18 from "../images/homeBanner18.webp";
 import homeBannerImage19 from "../images/homeBanner19.webp";
 import homeBannerImage20 from "../images/homeBanner20.webp";
 
-const bannerPictures = [
-  homeBannerImage0, homeBannerImage2, homeBannerImage3, homeBannerImage4, homeBannerImage5, 
-  homeBannerImage6, homeBannerImage8, homeBannerImage9, homeBannerImage10, homeBannerImage11,
-  homeBannerImage12, homeBannerImage13, homeBannerImage14, homeBannerImage15, homeBannerImage16,
-  homeBannerImage17, homeBannerImage18, homeBannerImage18, homeBannerImage19, homeBannerImage20,
-];
-
 export const Hero = ({ onShopNow }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [bannerPictures] = useState([
+    homeBannerImage0, 
+    homeBannerImage2, 
+    homeBannerImage3, 
+    homeBannerImage4, 
+    homeBannerImage5, 
+    homeBannerImage6, 
+    homeBannerImage8, 
+    homeBannerImage9, 
+    homeBannerImage10, 
+    homeBannerImage11,
+    homeBannerImage12, 
+    homeBannerImage13, 
+    homeBannerImage14, 
+    homeBannerImage15, 
+    homeBannerImage16,
+    homeBannerImage17, 
+    homeBannerImage18, 
+    homeBannerImage18, 
+    homeBannerImage19, 
+    homeBannerImage20,
+  ]);
 
   useEffect(() => {
     const interval = setInterval(() => {
