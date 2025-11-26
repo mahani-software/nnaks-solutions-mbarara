@@ -3,7 +3,6 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ProductCard } from './components/ProductCard';
 import { CartDrawer } from './components/CartDrawer';
-import { Assistant } from './components/Assistant';
 import { PRODUCTS, LOCATION, Category } from './constants';
 import { MapPin, Phone, Mail, Instagram, Facebook, Twitter } from 'lucide-react';
 
@@ -168,8 +167,6 @@ const App = () => {
         onRemove={removeFromCart}
         onUpdateQuantity={updateQuantity}
       />
-
-      <Assistant />
     </div>
   );
 };
