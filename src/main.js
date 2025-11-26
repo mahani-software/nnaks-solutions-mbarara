@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
-import { AuthProvider } from './providers/AuthContext';
+import { AuthProvider } from './providers/AuthContext.jsx';
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./backend/store"
 
