@@ -228,7 +228,7 @@ const App = () => {
                     <ul className="space-y-2 text-gray-400">
                         <li className="flex items-center"><MapPin size={16} className="mr-2" /> {LOCATION}</li>
                         <li className="flex items-center"><Phone size={16} className="mr-2" /> +256 789495670</li>
-                        <li className="flex items-center"><Mail size={16} className="mr-2" /> nakssolutions@gmail.com </li>
+                        <li className="flex items-center"><Mail size={16} className="mr-2" /> products in store </li>
                     </ul>
                 </div>
                 <div>
