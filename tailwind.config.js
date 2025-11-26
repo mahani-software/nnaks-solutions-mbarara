@@ -22,6 +22,13 @@ export default {
         success: '#00D66B',
         warning: '#FBBF24',
         error: '#EF4444',
+        primary: '#0F172A',
+        accent: '#3B82F6',
+        uganda: {
+          black: '#000000',
+          yellow: '#FCDC04',
+          red: '#D90000',
+        }
       },
       backgroundImage: {
         'gradient-brand': 'linear-gradient(135deg, #00D66B 0%, #00C2FF 100%)',
