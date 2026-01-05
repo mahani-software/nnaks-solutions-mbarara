@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import ceilingLightMain from "./assets/ceiling-lights-main.jpg"
+import solarPannel5 from "./assets/solarpannel5.jpeg"
 
 const HeroSection = () => {
   const slides = [
+    {url: ceilingLightMain, title: ""},
+    {url: solarPannel5, title: ""},
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner4.webp", title: 'Complete Solar Solutions Store' },
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner2.webp", title: 'Premium Inverters & Batteries Section' },
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner0.webp", title: 'Modern Solar & Electronics Showroom' },
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner13.webp", title: 'Complete Solar Solutions Store' },
-    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner14.webp", title: 'Complete Solar Solutions Store' },
-    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage3.webp", title: 'Professional Product Display' },
+    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner14.webp", title: 'Complete Solar Solutions Store' }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -9,20 +9,25 @@ import lightsImage4 from "./assets/homeBanner11.webp"
 import lightsImage5 from "./assets/categoriesImage2.webp"
 import mccbCircuitBreaker from "./assets/mccb.png"
 import flatIron from "./assets/flat-iron.jpg"
+import goldSocket from "./assets/gold-socket.webp"
+import ceilingLights1 from "./assets/ceiling-lights1.jpeg"
+import ceilingLights3 from "./assets/ceiling-lights3.png"
+import solarPannel5 from "./assets/solarpannel5.jpeg"
+import solarCharge from "./assets/solar-charge.jpg"
 
 const ElectronicsShop = () => {
   const solarProducts = [
-    { name: 'Solar Monocrystalline', image: 'https://www.pv-magazine.com/wp-content/uploads/2021/08/thumbnail_7ac546b2f4d2b9e59a1105a1dfcbe5a-e1631538708157-1200x608.png' },
+    { name: 'Solar Monocrystalline', image: solarPannel5 },
     // { name: 'Lithium Solar Batteries', image: 'https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3525598664182546389' },
     // { name: 'Lead Acid Storage (MF Batteries - Chloride)', image: 'x-raw-image:///ae714ce727c254fa91f6c6505017059a0375ebddf815e45c7a92250aa7b34197' },
     // { name: 'Solar Inverters', image: 'https://img.ctmon.com.cn/oss/sren/userfiles/assets/2023/10/17/2023101717425461.png' },
-    { name: 'Solar Charge Controllers (MPPT)', image: 'https://m.media-amazon.com/assets/I/71Lb7O9te6L._AC_UF894,1000_QL80_.jpg' },
+    { name: 'Solar Charge Controllers', image: solarCharge },
     { name: 'Solar Street Lights', image: 'https://www.elitesemicon.com/uploads/%E5%9B%BE%E7%89%8718.png' },
     // { name: 'Solar Flood Lights', image: 'https://www.elitesemicon.com/uploads/%E5%9B%BE%E7%89%8718.png' },
   ];
 
   const lightsProducts = [
-    { name: 'Ceiling Lights', image: 'https://m.media-amazon.com/assets/S/aplus-media-library-service-media/01c7e943-a563-4119-b9ed-d542fc91af24.__CR0,0,970,600_PT0_SX970_V1___.jpg' },
+    { name: 'Ceiling Lights', image: ceilingLights3 },
     { name: 'Panel Lights', image: lightsImage1 },
     { name: 'Mega Lights', image: lightsImage2 },
     { name: 'Spot Lights', image: lightsImage3 },
@@ -42,16 +47,16 @@ const ElectronicsShop = () => {
     { name: 'Stay Rods', image: 'https://assets.wired2fish.com/uploads/2022/10/8686be5f-7b23-4695-8436-5a1194eaa8d8.webp' },
     { name: 'Flexible Cables', image: 'https://cdn.shopify.com/s/files/1/0213/7895/7412/files/shutterstock_560390944_large.jpg?v=1595955906' },
     { name: 'Multi-Strand Cables', image: 'https://thumbs.dreamstime.com/b/exposed-multi-core-cable-colorful-insulated-wires-copper-conductors-splayed-black-sheath-white-background-space-422673543.jpg' },
-    { name: 'Single Core Cables', image: 'https://i.ebayimg.com/assets/g/ut0AAOSw2jdfHkPW/s-l1200.jpg' },
+    // { name: 'Single Core Cables', image: 'https://i.ebayimg.com/assets/g/ut0AAOSw2jdfHkPW/s-l1200.jpg' },
     { name: 'Flat Iron Cables', image: 'https://www.electricaltechnology.org/wp-content/uploads/2020/04/Types-of-Electrical-Wires-Cables.jpg' },
     { name: 'Extension Cables', image: 'https://bench-force.com/cdn/shop/files/100-02908-corrected_300x300.png?v=1749482371' },
-    { name: 'Com Cables', image: 'https://m.media-amazon.com/assets/I/51toMdUK9xL._AC_UF1000,1000_QL80_.jpg' },
+    // { name: 'Com Cables', image: 'https://m.media-amazon.com/assets/I/51toMdUK9xL._AC_UF1000,1000_QL80_.jpg' },
     { name: 'Fire Alarm Cables', image: 'https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3Ntb2tlLWRldGVjdG9yLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fX19' },
     { name: 'Coaxial Cables', image: 'http://www.thecimpleco.com/cdn/shop/products/71TscB3o_2BAL._SL1500_d7e0b3bc-7e3f-4c4c-bb1c-dcaccf3b4420_1024x.jpg?v=1752690947' },
   ];
 
   const circuitBreakers = [
-    { name: 'Single Pole Circuit Breakers', image: 'https://i.ebayimg.com/assets/g/UPYAAOSwhJtd6UVp/s-l1200.jpg' },
+    //404 { name: 'Single Pole Circuit Breakers', image: 'https://i.ebayimg.com/assets/g/UPYAAOSwhJtd6UVp/s-l1200.jpg' },
     // { name: 'Double Pole Circuit Breakers', image: 'https://magnifyelectric.com/wp-content/uploads/2024/11/What-is-a-Double-Pole-Circuit-Breaker.jpg' },
     { name: 'Triple Pole Circuit Breakers', image: 'http://www.simplybreakers.com/cdn/shop/files/CB-THQL32040-1.jpg?v=1748186772' },
     { name: 'MCCB (Molded Case) Circuit Breakers', image: mccbCircuitBreaker },
@@ -64,7 +69,7 @@ const ElectronicsShop = () => {
   ];
 
   const contactors = [
-    { name: 'AC Timers', image: 'https://m.media-amazon.com/assets/I/61QxwWMHs8L._AC_UF894,1000_QL80_.jpg' },
+    //404 { name: 'AC Timers', image: 'https://m.media-amazon.com/assets/I/61QxwWMHs8L._AC_UF894,1000_QL80_.jpg' },
     { name: 'Push Buttons', image: 'https://thumbs.dreamstime.com/b/close-up-multi-function-industrial-switch-block-isolated-white-background-each-colorful-pushbutton-represents-critical-415293827.jpg' },
     { name: 'Indicator Lamps', image: 'https://thumbs.dreamstime.com/z/alert-indicator-lamp-isolated-white-transparent-background-png-image-stunning-vibrant-high-quality-375123097.jpg' },
     { name: 'Emergency Stop Push Buttons', image: 'https://thumbs.dreamstime.com/b/red-stop-button-white-d-emergency-start-vector-illustration-mechanism-asset-machinery-panic-411353213.jpg' },
@@ -93,7 +98,7 @@ const ElectronicsShop = () => {
   ];
 
   const sockets = [
-    { name: 'Double Gold Sockets', image: 'https://cdn.socketstore.co.uk/resize/?src=/assets/catalog/0094688/oversized-sockets-and-switches.jpg&width=360&height=270&crop=cc&keepformat=False&u=1' },
+    { name: 'Double Gold Sockets', image: goldSocket },
     { name: 'Double White Sockets', image: 'https://thumbs.dreamstime.com/b/white-double-electrical-outlet-background-395758127.jpg' },
     { name: 'Double Silver Sockets', image: 'http://prismalighting.co.uk/cdn/shop/articles/Desktop_Define_Socket_Banner.png?v=1732598320' },
     { name: 'Single Gold Sockets', image: 'https://thumbs.dreamstime.com/b/capture-mesmerizing-close-up-image-single-glowing-ethernet-cable-plug-bathed-ethereal-light-against-dark-sleek-404788738.jpg' },
