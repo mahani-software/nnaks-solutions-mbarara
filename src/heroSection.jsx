@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ceilingLightMain from "./assets/ceiling-lights-main.jpg"
 import solarPannel5 from "./assets/solarpannel5.jpeg"
+import logo from "./assets/nnaks-logo.png"
 
 const HeroSection = () => {
   const slides = [
@@ -87,9 +88,19 @@ const HeroSection = () => {
           rounded-r-[4rem]
         ">
           <div className="px-8 md:px-12 lg:px-16 text-left">
+            {/*             
+            <div className="items-center">
+              <img
+                src={logo}
+                alt={"logo"}
+                className="h-[20] w-[20] mx-auto"
+              />
+            </div>
+             */}
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-xl">
               NNAKS SOLUTION ENGINEERING LTD
-              <br /><br />
+              <br />
+              <br />
               <span className="text-yellow-400 text-2xl md:text-4xl lg:text-5xl">
                 Your Trusted Electronics Shop in Mbarara
               </span>
