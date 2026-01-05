@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">
-              NNAKS SOLUTIONS & ENGINEERING LTD
+              NNAKS SOLUTION ENGINEERING LTD
             </h3>
             <p className="text-gray-400 leading-relaxed">
               Your trusted partner for high-quality solar products, lighting, cables, 
@@ -76,7 +76,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} NNAKS SOLUTIONS & ENGINEERING LTD. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NNAKS SOLUTION ENGINEERING LTD. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -3,12 +3,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const HeroSection = () => {
   const slides = [
-    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner0.webp", title: 'Modern Solar & Electronics Showroom' },
-    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage3.webp", title: 'Professional Product Display' },
-    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner2.webp", title: 'Premium Inverters & Batteries Section' },
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner4.webp", title: 'Complete Solar Solutions Store' },
+    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner2.webp", title: 'Premium Inverters & Batteries Section' },
+    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner0.webp", title: 'Modern Solar & Electronics Showroom' },
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner13.webp", title: 'Complete Solar Solutions Store' },
     { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/homeBanner14.webp", title: 'Complete Solar Solutions Store' },
+    { url: "https://storage.googleapis.com/nnaks-solutions-mbarara/categoriesImage3.webp", title: 'Professional Product Display' },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
